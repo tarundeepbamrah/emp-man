@@ -90,8 +90,6 @@ public class DBHelper extends SQLiteOpenHelper {
 
         List<employeedetailadd> emplist = new ArrayList<>();
 
-        //int i=0,j;
-       // String[][] tabledata ={{"Tarun"}};
         if(cursor!=null) {
             cursor.moveToFirst();
             String name, fname, email, Add;
