@@ -17,7 +17,6 @@ import android.widget.Toast;
 import java.util.List;
 
 public class Employee_Details extends AppCompatActivity {
-    //ListView lv;
     RecyclerView recyclerView;
     AdapterClass employeeadapter;
 
@@ -27,13 +26,11 @@ public class Employee_Details extends AppCompatActivity {
         setContentView(R.layout.activity_employee_details);
         getWindow().setStatusBarColor(ContextCompat.getColor(Employee_Details.this,R.color.teal_700));
         recyclerView=findViewById(R.id.listofemployeedetail);
-        //lv= findViewById(R.id.lv);
 
         try {
 
             DBHelper dataBaseHelper = new DBHelper(Employee_Details.this);
             List<employeedetailadd> data = dataBaseHelper.allempdetails();
-            //if (data !=null) {
             employeeadapter=new AdapterClass(Employee_Details.this,data);
             LinearLayoutManager linearLayoutManager= new LinearLayoutManager(Employee_Details.this);
             recyclerView.setLayoutManager(linearLayoutManager);
