@@ -38,16 +38,6 @@ public class Employee_Details extends AppCompatActivity {
             LinearLayoutManager linearLayoutManager= new LinearLayoutManager(Employee_Details.this);
             recyclerView.setLayoutManager(linearLayoutManager);
             recyclerView.setAdapter(employeeadapter);
-
-
-            //ArrayAdapter<employeedetailadd> arrayadapter= new ArrayAdapter<employeedetailadd>(Employee_Details.this,android.R.layout.simple_list_item_1,data);
-            //lv.setAdapter(arrayadapter);
-
-           // }
-
-           // else {
-            //    Toast.makeText(Employee_Details.this, "No Entries", Toast.LENGTH_SHORT).show();
-           // }
         }
 
         catch (Exception e)
