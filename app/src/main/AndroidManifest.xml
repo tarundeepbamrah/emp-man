@@ -25,10 +25,10 @@
             android:name=".Add_Employee"
             android:exported="false" />
         <activity
-            android:name=".Employee"
+            android:name=".HomePage"
             android:exported="false" />
         <activity
-            android:name=".HomePage"
+            android:name=".Employee"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
