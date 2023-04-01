@@ -39,10 +39,10 @@
         android:background="@drawable/ic_employee_details"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.837"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toEndOf="@+id/add_employee"
         app:layout_constraintTop_toTopOf="@+id/background2"
-        app:layout_constraintVertical_bias="0.277"
+        app:layout_constraintVertical_bias="0.328"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
@@ -52,10 +52,10 @@
         android:background="@drawable/ic_employee_edit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.831"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.652"
+        app:layout_constraintStart_toEndOf="@+id/employee_details"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.608"
+        app:layout_constraintVertical_bias="0.564"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton

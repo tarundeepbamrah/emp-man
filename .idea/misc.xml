@@ -6,11 +6,14 @@
         <entry key="app/src/main/res/drawable/buttonbg.xml" value="0.2085" />
         <entry key="app/src/main/res/drawable/dialogbackground.xml" value="0.2085" />
         <entry key="app/src/main/res/drawable/edittextbg.xml" value="0.2085" />
+        <entry key="app/src/main/res/drawable/ic_attendence.xml" value="0.2205" />
+        <entry key="app/src/main/res/drawable/ic_employee_attendence.xml" value="0.2205" />
+        <entry key="app/src/main/res/drawable/ic_employee_details.xml" value="0.2205" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_add_employee.xml" value="0.2580947875976563" />
         <entry key="app/src/main/res/layout/activity_detailsfor_edit.xml" value="0.22658487955729167" />
         <entry key="app/src/main/res/layout/activity_edit_employee.xml" value="0.24947916666666667" />
-        <entry key="app/src/main/res/layout/activity_employee.xml" value="0.25302581787109374" />
+        <entry key="app/src/main/res/layout/activity_employee.xml" value="0.23838958740234367" />
         <entry key="app/src/main/res/layout/activity_employee_details.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
